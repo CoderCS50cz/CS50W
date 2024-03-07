@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar-search">
+            <a class="navbar-link" href="index.html">Google Search</a>
+        </div>
+        <div class="adv-search">
+            <label style="margin-left: 10px;">Advanced Search</label>            
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="form-space">
+            <p class="find-pages">Find pages with...</p>
+            <form action="https://google.com/search">
+                <div class="row">
+                    <div class="adv-srch-text">
+                        <label class="conditions-text">all these words:</label>
+                    </div>
+                    <div class="adv-srch-field">
+                        <input class="text-field" name="as_q" text="text">
+                    </div>                
+                </div>
+                <div class="row">
+                    <div class="adv-srch-text">
+                        <label class="conditions-text">this exact word or phrase:</label>
+                    </div>
+                    <div class="adv-srch-field">
+                        <input class="text-field" name="as_epq" text="text">
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="adv-srch-text">
+                        <label class="conditions-text">any of these words:</label>
+                    </div>
+                    <div class="adv-srch-field">
+                        <input class="text-field" name="as_oq" text="text">
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="adv-srch-text">
+                        <label class="conditions-text">none of these words:</label>
+                    </div>
+                    <div class="adv-srch-field">
+                        <input class="text-field" name="as_eq" text="text">
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="adv-srch-text">
+                        <!--Does not required-->
+                    </div>
+                    <div class="adv-srch-field">
+                        <input class="a-s-button a-s-button-action button-place" style="line-height: 100%; height: 30px; min-width: 120px;" type="submit" value="Advanced Search">
+                    </div> 
+                </div>
+            </form>            
+        </div>
+    </body>
+</html>
